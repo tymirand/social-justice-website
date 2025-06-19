@@ -18,7 +18,11 @@
 - Overconsumption is characterized by excessive buying and material possesions
     - E.g. collecting stanley cups, tote bags, clothes, etc.
 # Why is extreme consumerism bad?
-- 
+- It drives resource depletion, pollution, and climate change. The production, transport, and disposal of excess goods generate massive amounts of waste and greenhouse gas emissions.
+
+- It fuels the exploitation of low-wage workers in developing countries to produce cheap goods. The consumption habits of the wealthy disproportionately harm the planet's poorest communities.
+
+- It promotes a "hedonic treadmill" where the temporary happiness from new purchases fades quickly, leading to a cycle of chronic dissatisfaction, financial stress, and anxiety.
 
 # Action
 - Knowing about it and spread knowledge about the topic
