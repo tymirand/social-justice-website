@@ -1,0 +1,26 @@
+/*Center entire website text area*/
+:root {
+  background-color: lightpink; /*Change background color*/
+  font-family: "Courier New", Courier, monospace; /*Change font*/
+  font-size: medium;
+}
+
+/*Center entire website text area*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Center title and change color*/
+h1 {
+  color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Change sub heading color*/
+h3 {
+  color: darkgoldenrod;
+}
