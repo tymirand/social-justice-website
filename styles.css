@@ -1,18 +1,16 @@
-/*Center entire website text area*/
+
 :root {
   background-color: lightpink; /*Change background color*/
   font-family: "Courier New", Courier, monospace; /*Change font*/
   font-size: medium;
 }
 
-/*Center entire website text area*/
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/*Center title and change color*/
 h1 {
   color: brown;
   display: flex;
@@ -20,21 +18,15 @@ h1 {
   justify-content: center;
 }
 
-/*Change sub heading color and center with flexbox*/
 h3 {
   color: darkgoldenrod;
   display: flex;
   justify-content: center;
 }
 
-/*Basic styling for image placeholders*/
+
 .image-placeholder {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0;
-  padding: 20px;
-  background-color: lightgray;
-  border: 2px dashed gray;
+  /*Flexbox Code to Center Images*/
 }
 
 .image-placeholder p {
