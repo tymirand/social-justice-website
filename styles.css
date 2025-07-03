@@ -26,9 +26,13 @@ h3 {
 .image-placeholder {
   display: flex;
   justify-content: center;
+  
 }
 
 .image-placeholder img {
-  max-width: 300px;
-  height: auto;
+  margin: 0;
+  color: gray;
+  font-style: italic;
+  width: 20vw;
+  height: 30vh;
 }
