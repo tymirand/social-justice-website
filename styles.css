@@ -25,9 +25,18 @@ h3 {
 }
 
 
-.image-placeholder {
-  /*Flexbox Code to Center Images*/
-}
+  .image-placeholder {
+    /*Flexbox Code to Center Images*/
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  
+  .image-placeholder img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid gray;
+  }
 
 .image-placeholder p {
   margin: 0;
