@@ -1,6 +1,6 @@
 :root {
-  background-color: lightpink; /*Change background color*/
-  font-family: "Courier New", Courier, monospace; /*Change font*/
+  background-color: lightpink;
+  font-family: "Courier New", Courier, monospace;
   font-size: medium;
 }
 
@@ -11,14 +11,14 @@
 }
 
 h1 {
-  color: brown;
+  color: rgb(221, 93, 191);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 h3 {
-  color: darkgoldenrod;
+  color: rgb(216, 62, 95);
   display: flex;
   justify-content: center;
 }
@@ -26,13 +26,20 @@ h3 {
 .image-placeholder {
   display: flex;
   justify-content: center;
-  
 }
 
 .image-placeholder img {
-  margin: 0;
+  margin: 10px;
   color: gray;
   font-style: italic;
-  width: 20vw;
-  height: 30vh;
+  width: 50vw;
+  height: 40vh;
+  border-radius: 15px;
+}
+
+.info-card {
+  background-color: rgb(218, 204, 17);
+  box-shadow: black 3px 3px 10px;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
