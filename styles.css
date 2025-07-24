@@ -1,8 +1,18 @@
-:root {
-  background-color: lightpink;
+:root{
+  /* background-color: lightpink; */
+  --base-color: lightpink;
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
 }
+body{
+  background-color: var(--base-color);
+}
+
+
+.darkMode{
+  --base-color: purple;
+}
+
 
 .container {
   display: flex;
@@ -12,7 +22,7 @@
 
 .darkModeButton{
   background-color: #d90c8d;
-  color:pink
+  color: #Cd558D
 
 }
 
@@ -32,6 +42,13 @@
     float: right;
 
 } 
+
+#darkMode:hover{
+    background-color: rgb(217, 12, 141);
+    border: 2.5px solid rgb(205, 85, 141);
+    transform: scale(1.05);
+}
+
 
 
 
