@@ -1,56 +1,50 @@
-:root{
-  /* background-color: lightpink; */
-  --base-color: lightpink;
-  font-family: "Courier New", Courier, monospace;
-  font-size: medium;
-}
-body{
+body {
   background-color: var(--base-color);
 }
 
-
-.darkMode{
-  --base-color: purple;
+/* lightmode */
+:root {
+  --base-color: lightpink;
+  --card: rgb(219, 22, 111);
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
 }
 
+/* dark mode */
+.dark-mode {
+  --base-color: purple;
+  --card: rgb(50, 6, 71);
+  --text-color: white;
+}
 
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.darkModeButton{
-  background-color: #d90c8d;
-  color: #Cd558D
-
+#dark-mode-toggle {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-top: 30px;
+  background-color: rgb(241, 66, 165);
+  color: pink;
+  cursor: pointer;
+  border-radius: 300px;
+  transition: background-color 0.3s ease;
+  border: 2.5px solid rgb(108, 2, 83);
+  align-self: flex-end;
 }
 
-#darkMode{
-    font-size: 30px;
-    height: 55px;
-    width: 55px;
-    margin-top: 10px;
-    padding: 8px;
-    margin-top: 30px;
-    background-color: rgb(241, 66, 165);
-    color: pink;
-    cursor: pointer;
-    border-radius: 300px;
-    transition: background-color 0.3s ease;
-    border: 2.5px solid rgb(108, 2, 83);
-    float: right;
-
-} 
-
-#darkMode:hover{
-    background-color: rgb(217, 12, 141);
-    border: 2.5px solid rgb(205, 85, 141);
-    transform: scale(1.05);
+#dark-mode-toggle:hover {
+  background-color: rgb(217, 12, 141);
+  border: 2.5px solid rgb(205, 85, 141);
+  transform: scale(1.05);
 }
-
-
-
 
 h1 {
   color: rgb(221, 93, 191);
@@ -80,10 +74,50 @@ h3 {
 }
 
 .info-card {
-  background-color: rgb(218, 204, 17);
+  background-color: var(--card);
   box-shadow: black 3px 3px 10px;
+  color: var(--text-color);
   border-radius: 10px;
   padding: 0.5rem;
   max-width: 80vw;
   margin: auto;
+}
+
+#dragon-reader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dragon-reader img {
+  height: 250px;
+  width: auto;
+  shadow: black 3px 3px 10px;
+}
+
+#dragon-reader img:hover {
+  transform: scale(1.2);
+}
+
+#dragon-reader p {
+  color: rgb(255, 64, 0);
+}
+
+/*Mobile Phones*/
+@media screen and (max-width: 480px) {
+  body {
+    font-size: small;
+  }
+
+  .image-placeholder img {
+    width: 50vw;
+    height: 40vh;
+  }
+
+  .info-card {
+    max-width: fit-content;
+    padding: 0.5rem;
+    margin: 10px auto;
+  }
 }
